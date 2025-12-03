@@ -1,0 +1,41 @@
+# ============================================
+# Terraform – Arquivos a serem ignorados
+# ============================================
+
+# Pastas de estado do Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Arquivos de estado
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+# Planos
+tfplan
+*.plan
+
+# Variáveis sensíveis
+
+*.tfvars.json
+tf.vars
+
+# Arquivos locais temporários
+*.log
+*.out
+*.bak
+*.tmp
+*.backup
+
+# Arquivos gerados pelo script
+start.sh.log
+
+# Backups do editor
+*~
+*.swp
+*.swo
+.DS_Store
+
+# Pastas de ambiente se estiverem fora do versionamento
+# (descomente se não quiser versionar dev/hml/prd gerados
