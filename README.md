@@ -1,4 +1,4 @@
-# Módulo Terraform – Estrutura Base (VPC + Backend + Automação)
+# Módulo Terraform – Estrutura Base (Gerenciamento + escala + Automação)
 
 Este repositório contém a estrutura padrão para criação de módulos Terraform, incluindo:
 
